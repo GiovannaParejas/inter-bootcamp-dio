@@ -1,0 +1,15 @@
+let a = 3;
+let N = 18;
+ 
+//TODO:  Retorne o valor da soma de todos múltiplos de "A" até o seu limite "N".
+
+let soma = 0;
+
+for (let i = 0; i <= N; i++ ) {
+  if (i % a == 0) {
+     soma = soma + i
+  } 
+};
+
+console.log(soma);
+
